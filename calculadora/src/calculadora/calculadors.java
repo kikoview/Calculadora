@@ -17,6 +17,8 @@ public class calculadors {
 						System.out.print("3.Multiplicar");
 						System.out.print("\n");
 						System.out.print("4.Dividir");
+						System.out.print("\n");
+						System.out.print("5.Salir");
 						Scanner scr=new Scanner(System.in);
 						int opcion=scr.nextInt();
 						switch(opcion) {
@@ -32,7 +34,9 @@ public class calculadors {
 						case 4:
 							divi();
 							break;
-							
+						case 5:
+							System.exit(0);
+							break;
 							default:
 								System.out.println("Esa opción "+opcion+" no esta");
 						}
