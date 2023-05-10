@@ -8,6 +8,7 @@ public class calculadors {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 				while(true) {
+					System.out.print("\n-------------------------------");
 						System.out.print("\nElige un numero del 1 al 4");
 						System.out.print("\n");
 						System.out.print("1.Sumar: ");
