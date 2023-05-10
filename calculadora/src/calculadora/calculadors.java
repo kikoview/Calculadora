@@ -10,15 +10,15 @@ public class calculadors {
 				while(true) {
 						System.out.print("Elige un numero del 1 al 4");
 						System.out.print("\n");
-						System.out.print("1.Sumar");
+						System.out.print("1.Sumar: ");
 						System.out.print("\n");
-						System.out.print("2.Restar");
+						System.out.print("2.Restar: ");
 						System.out.print("\n");
-						System.out.print("3.Multiplicar");
+						System.out.print("3.Multiplicar: ");
 						System.out.print("\n");
-						System.out.print("4.Dividir");
+						System.out.print("4.Dividir: ");
 						System.out.print("\n");
-						System.out.print("5.Salir");
+						System.out.print("5.Salir: ");
 						Scanner scr=new Scanner(System.in);
 						int opcion=scr.nextInt();
 						switch(opcion) {
